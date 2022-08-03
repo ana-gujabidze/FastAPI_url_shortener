@@ -20,7 +20,7 @@ The app allows to:
 Clone the repo and install the dependencies.
 ``` 
 git clone https://github.com/ana-gujabidze/FastAPI_url_shortener.git
-cd FastAPI_url_shortener/src/
+cd FastAPI_url_shortener/
 ```
 The app is connected to Sqlite Database so in order to run this app, create `.env` file similar to `.env_sample` file and specify all environmental variables.
 
@@ -34,7 +34,7 @@ In order to run this project first install ***requirements.txt***
 pip3 install -r requirements.txt
 ```
 
-Then in the terminal run the command python main.py and it will start running of the server. To check the API endpoint, open http://127.0.0.1:8000 in the browser.
+Then in the terminal run the command `python main.py` and it will start running of the server. To check the API endpoint, open http://127.0.0.1:8000 in the browser.
 
 There are 4 different API endpoints available, which can be accessed through this link [here](http://127.0.0.1:8000/docs):
 
